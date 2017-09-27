@@ -1,0 +1,36 @@
+@view-small-width:                                          650px;
+@view-medium-width:                                         850px;
+@view-large-width:                                          1150px;
+@view-huge-width:                                           1500px;
+
+.view {
+  box-sizing: border-box;
+  margin: auto;
+
+  hr {
+    border: none;
+    border-top: 1px solid #d7e1e1;
+  }
+}
+
+.view, .limit {
+  margin-left: auto;
+  margin-right: auto;
+
+  &--limit-huge{
+    max-width: @view-huge-width;
+  }
+
+  &--limit-large{
+    max-width: @view-large-width;
+  }
+
+  &--limit-medium{
+    max-width: @view-medium-width;
+  }
+
+  &--limit-small{
+    margin: auto;
+    max-width: @view-small-width;
+  }
+}

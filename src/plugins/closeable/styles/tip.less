@@ -1,0 +1,110 @@
+@tip-height: 12px;
+@tip-color: @popover-color;
+
+.tip {
+  border: @tip-height solid transparent;
+  display: inline-block;
+  height: 0;
+  width: 0;
+
+  &.up {
+    border-bottom-color: @tip-color;
+    border-top: none;
+  }
+
+  &.down {
+    border-bottom: none;
+    border-top-color: @tip-color;
+  }
+
+  &.left {
+    border-left: none;
+    border-right-color: @tip-color;
+  }
+
+  &.right {
+    border-left-color: @tip-color;
+    border-right: none;
+  }
+}
+
+.tip-rail {
+  position: absolute;
+  z-index: 2;
+
+  &.horizontal {
+    height: @tip-height;
+    width: 100%;
+    left: 0;
+
+    .tip {
+      position: absolute;
+      top: 0;
+    }
+
+    &.left {
+      .tip{
+        left: 0;
+      }
+    }
+
+    &.center {
+      .tip{
+        left: 50%;
+        transform: translateX(-50%);
+      }
+    }
+
+    &.right {
+      .tip{
+        right: 0;
+      }
+    }
+
+    &.above {
+      bottom: 100%;
+    }
+
+    &.below {
+      bottom: -@tip-height;
+    }
+  }
+
+  &.vertical {
+    height: 100%;
+    top: 0;
+
+    .tip {
+      position: absolute;
+    }
+
+    &.bottom {
+      .tip {
+        bottom: 0;
+      }
+    }
+
+    &.middle {
+      .tip {
+        top: 50%;
+        transform: translateY(-50%);
+      }
+    }
+
+    &.after {
+      left: 100%;
+
+      .tip {
+        left: 0;
+      }
+    }
+
+    &.before {
+      right: 100%;
+
+      .tip {
+        right: 0;
+      }
+    }
+  }
+}

@@ -1,2 +1,1 @@
-# react-web-app
-Scaffold
+# edoo-books-client

@@ -1,0 +1,208 @@
+// Fonts
+
+// Font families
+@font-family-sans-serif:                                                        Helvetica, Arial, sans-serif;
+@font-family-base:                                                              @font-family-sans-serif;
+@font-family-monospace:                                                         Monaco, Menlo, Consolas, "Courier New", monospace;
+@font-family-serif:                                                             Georgia, "Times New Roman", Times, serif;
+
+// Other fonts
+@lato:                                                                          'Lato', sans-serif;
+@montserrat:                                                                    'Montserrat', sans-serif;
+@open:                                                                          'Open Sans', sans-serif;
+@font-family-base:                                                              @open;
+
+// Colors
+
+// System colors
+@system-default-color:                                                          #f6f6f6;
+@system-primary-color:                                                          #00a09b;
+@system-info-color:                                                             #008782;
+@system-success-color:                                                          #00bc5d ;
+@system-danger-color:                                                           #de5a5a;
+@system-warning-color:                                                          #ffb122;
+@system-inverted-color:                                                         #333333;
+@system-default-background-color:                                               #e9eeee;
+
+// Synonymous of primary
+@system-base-color:                                                             @system-primary-color;
+
+// Breakpoints
+
+// Button component
+@button-font-family:                                                            @montserrat;
+@button-gray-color:                                                             #E8E8E8;
+@button-default-color:                                                          #f6f6f6;
+@button-gray-text-color:                                                        #888888;
+@button-default-text-color:                                                     #898d8d;
+@button-primary-color:                                                          #00bcb7;
+@button-info-color:                                                             #005353;
+@button-success-color:                                                          #00bc5d;
+@button-danger-color:                                                           @system-danger-color;
+@button-warning-color:                                                          @system-warning-color;
+@button-inverted-color:                                                         #004040;
+@button-disabled-color:                                                         @black-5;
+@button-disabled-text-color:                                                    @black-15;
+
+@button-danger-border-color:                                                    @system-danger-color;
+@button-gray-border-color:                                                      #cbcdcd;
+@button-default-border-color:                                                   #dadcdc;
+@button-disabled-border-color:                                                  @black-10;
+@button-info-border-color:                                                      #005d5d;
+@button-inverted-border-color:                                                  #005d5d;
+@button-primary-border-color:                                                   #01b9b6;
+@button-success-border-color:                                                   #1dba5e;
+@button-warning-border-color:                                                   @system-warning-color;
+@button-text-shadow:                                                            fadeout(lighten(@black, 20%), 80%);
+@button-border-radius:                                                          100px;
+@button-small-border-radius:                                                          100px;
+
+// Sidebar component
+@sidebar-border-color:                                                          #ddd;
+@sidebar-hover-link-color:                                                      #00a6a1;
+@sidebar-link-color:                                                            #cbeeed;
+@sidebar-text-color:                                                            @sidebar-link-color;
+@sidebar-font-family:                                                           @montserrat;
+@sidebar-text-shadow-color:                                                     #273434;
+@sidebar-header-background:                                                     #0f4e4c;
+@sidebar-background-color:                                                      #103534;
+@sidebar-open-width:                                                            190px;
+@sidebar-isotype-last-position:                                                 37px;
+@sidebar-logotype-last-position:                                                80px;
+@sidebar-contracted-header-margin:                                              10px;
+@sidebar-contracted-width:                                                      112px;
+@sidebar-list-element-padding:                                                  0.85rem;
+@sidebar-contracted-element-height:                                             45px;
+@sidebar-icon-size:                                                             25px;
+@sidebar-link-border-color:                                                     #194645;
+
+
+// User component
+@user-picture-size:                                                             45px;
+@user-data-margin:                                                              15px;
+@user-name-font-size:                                                           15px;
+@user-role-font-size:                                                           12px;
+@user-font-family:                                                              @open;
+@user-picture-button-right:                                                     -7px;
+@user-picture-button-bottom:                                                    -6px;
+
+// Navbar
+@navbar-height:                                                                 60px;
+@navbar-color:                                                                  @system-base-color;
+@navbar-search-background-color:                                                @white;
+@navbar-search-font-color:                                                      #c8c7c7;
+@navbar-search-font-family:                                                     @font-family-base;
+@navbar-config-button-color:                                                    #d7fffe;
+@navbar-username-color:                                                         #ddfcff;
+@navbar-role-color:                                                             #83dfdc;
+@navbar-user-font-family:                                                       @font-family-base;
+@navbar-bubble-background-color:                                                @system-danger-color;
+@navbar-search-icon-color:                                                      @system-base-color;
+@navbar-user-name-color:                                                        #ddfcff;
+@navbar-user-role-color:                                                        #83dfdc;
+@navbar-search-placeholder-color:                                               #ccc;
+@navbar-bubble-font-size:                                                       10px;
+@navbar-bubble-font-weight:                                                     bold;
+@navbar-bubble-font-family:                                                     @montserrat;
+@navbar-notifications-position-x:                                               15px;
+@navbar-notifications-position-y:                                               14px;
+@navbar-search-width:                                                           37%;
+@navbar-element-small-horizontal-margin:                                        12px;
+
+// Bubble
+@bubble-vertical-padding:                                                       2rem;
+@bubble-horizontal-padding:                                                     3rem;
+
+// Grid
+@grid-row-class:                                                                row;
+@grid-half-gutter-width:                                                        0.5rem;
+@grid-gutter-compensation:                                                      -@grid-half-gutter-width;
+
+// User card
+@user-card-background:                                                          @white;
+@user-card-border-color:                                                        #d5dada;
+@user-card-close-background:                                                    #f8f8f8;
+@user-card-close-border-color:                                                  #eeeeee;
+@user-card-close-font-color:                                                    #c7c7c7;
+@user-card-font-family:                                                         @font-family-base;
+@user-card-name-color:                                                          @system-base-color;
+@user-card-picture-background:                                                  #a9cdcc;
+@user-card-picture-border-color:                                                #d0d0d0;
+@user-card-role-color:                                                          #a1a2a2;
+@user-card-picture-placeholder:                                                 url('../images/picture_placeholder.png');
+@user-card-placeholder-background:                                              #e2e7e7;
+@user-card-placeholder-border:                                                  #d5dada;
+@user-card-placeholder-plus-background:                                         #c1c6c6;
+@user-card-placeholder-plus-color:                                              #e2e7e7;
+@user-card-placeholder-text-color:                                              #a6a7a7;
+
+
+// Dynamic table
+@dynamic-table-row-title-font-family:                                           @open;
+@dynamic-table-user-name-color:                                                 @system-base-color;
+@dynamic-table-user-role-color:                                                 #8e8e8e;
+@dynamic-table-title-up-color:                                                  @system-base-color;
+@dynamic-table-title-down-color:                                                rgb(177, 177, 177);
+@dynamic-table-user-image-border-color:                                         #dadada;
+@dynamic-table-text-color:                                                      #8e8e8e;
+@dynamic-table-row-tag-text-color:                                              @white;
+@dynamic-table-row-transform-height:                                            1.03;
+@dynamic-table-vertical-knob-width:                                             18px;
+@dynamic-table-vertical-knob-height:                                            28px;
+@dynamic-table-division-title-color:                                            #aaa;
+@dynamic-table-row-margin:                                                      @element-vertical-margin;
+@dynamic-table-row-height:                                                      80px;
+
+// Tabs
+@tabset-tab-height:                                                             48px;
+@tabset-tab-background:                                                         #e9eeee;
+@tabset-vertical-border-color:                                                  #dee2e2;
+@tabset-tab-font-color:                                                         #909595;
+@tabset-tab-hover-font-color:                                                   #019c97;
+@tabset-tab-padding:                                                            2rem;
+@tab-content-padding:                                                           2.5rem;
+
+// Tag
+@tag-font-family:                                                               @montserrat;
+@tag-default-text-color:                                                        #b5b5b5;
+
+// Forms
+@form-input-margin:                                                             1rem;
+@form-font-family:                                                              @font-family-base;
+@form-focus-shadow-color:                                                       fadeout(darken(@system-base-color, 15%), 50%);
+@form-focus-background-color:                                                   @white;
+@form-focus-border-color:                                                       #019e9b;
+@form-input-background-color:                                                   #f6f6f6;
+@form-input-border-color:                                                       #c3c9c9;
+@form-input-placeholder-color:                                                  #a8a8a8;
+@form-input-text-color:                                                         #888888;
+@form-label-color:                                                              #6a696e;
+@form-label-shadow-color:                                                       fadeout(@white, 21%);
+@form-input-toolbar-border-color:                                               #eee;
+@form-input-toolbar-file-label-color:                                           #aaa;
+@form-label-vertical-margin:                                                    23px;
+@form-input-border-radius:                                                      @system-border-radius;
+@form-input-height:                                                             51px;
+@form-password-strength-label-color:                                            #a3afaf;
+@form-password-strength-0-color:                                                #e66565;
+@form-password-strength-10-color:                                               #e66565;
+@form-password-strength-20-color:                                               #e66565;
+@form-password-strength-30-color:                                               #e66565;
+@form-password-strength-40-color:                                               #fece2f;
+@form-password-strength-50-color:                                               #fece2f;
+@form-password-strength-60-color:                                               #fece2f;
+@form-password-strength-70-color:                                               #3db066;
+@form-password-strength-80-color:                                               #3db066;
+@form-password-strength-90-color:                                               #3db066;
+@form-password-strength-100-color:                                              #3db066;
+@form-password-strength-background-color:                                       #d5dede;
+@form-focus-background-color:                                                   @black-5;
+@form-inline-editable-placeholder-hover-color:                                  @black-5;
+@form-input-error-border-color:                                                 #ce6f6f;
+@form-input-error-text-color:                                                   @form-input-text-color;
+@form-password-strength-label-color:                                            #aaa;
+@form-label-font-family:                                                        @montserrat;
+
+
+@emph-font: @montserrat;
+@body-font: @open;

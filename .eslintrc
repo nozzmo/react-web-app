@@ -1,0 +1,29 @@
+{
+    "parser": "babel-eslint",
+    "parserOptions": {
+        "sourceType": "module",
+        "ecmaFeatures": {
+            "jsx": true
+        }
+    },
+    "plugins": [
+        "react"
+    ],
+    "extends": ["eslint:recommended", "plugin:react/recommended"],
+    "env": {
+        "browser": true,
+        "node": true,
+        "es6": true
+    },
+    "globals": {
+        "Promise": true,
+        "PushNotification": true,
+        "Iterator": true,
+        "Generator": true
+    },
+    "rules": {
+        "react/display-name": [0],
+        "no-console": [0],
+        "react/prop-types": [0]
+    },
+}

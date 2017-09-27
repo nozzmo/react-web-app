@@ -1,0 +1,11 @@
+export const SELECTOR_REGISTERED = '@@redux-selector/REGISTERED';
+export const SELECTOR_ATTACHED = '@@redux-selector/ATTACHED';
+export const SELECTOR_ACTIVATED = '@@redux-selector/ACTIVATED';
+export const SELECTOR_DEACTIVATED = '@@redux-selector/DEACTIVATED';
+export const SELECTOR_VALUES_SET = '@@redux-selector/VALUES_SET';
+export const SELECTOR_SELECTED_CHANGED = '@@redux-selector/SELECTED_CHANGED';
+export const SELECTOR_SELECTED_CHANGED_UP = '@@redux-selector/SELECTED_CHANGED_UP';
+export const SELECTOR_SELECTED_CHANGED_DOWN = '@@redux-selector/SELECTED_CHANGED_DOWN';
+export const SELECTOR_FILTER_CHANGED = '@@redux-selector/FILTER_CHANGED';
+export const SELECTOR_CONFIGURATION_UPDATED = '@@redux-selector/CONFIGURATION_UPDATED';
+export const SELECTOR_CONFIGURATION_RESET = '@@redux-selector/CONFIGURATION_RESET';

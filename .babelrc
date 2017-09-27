@@ -1,0 +1,14 @@
+{
+  presets: [
+    'react',
+    'env',
+    'stage-0',
+    'flow'
+  ],
+  plugins: [
+    'react-html-attrs',
+    'transform-class-properties',
+    'transform-decorators-legacy',
+    'flow-react-proptypes',
+    'transform-object-rest-spread']
+}
